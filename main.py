@@ -6,7 +6,7 @@ from flask_bootstrap import Bootstrap5
 
 app = Flask(__name__)
 bootstrap = Bootstrap5(app)
-app.secret_key = "NsWp[f138fw%$sdq!$R"
+app.secret_key = "Your_Flask_Key"
 
 
 class MyForm(FlaskForm):
